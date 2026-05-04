@@ -43,6 +43,25 @@ Fizz
 Buzz
 ```
 
+## Verify Your Solution
+
+From the project root:
+
+```bash
+./check.sh 01-fizzbuzz "python solution.py"
+./check.sh 01-fizzbuzz "node solution.js"
+```
+
+Replace the command with however you run your solution.
+
+**Can't run from terminal?** Save your program's output to `challenges/01-fizzbuzz/output.txt` and run:
+
+```bash
+diff -u challenges/01-fizzbuzz/expected.txt challenges/01-fizzbuzz/output.txt
+```
+
+No output = correct. Otherwise the diff shows where your output differs.
+
 ## Solutions
 
 Put your solution in a file named `solution.<ext>` in this directory.

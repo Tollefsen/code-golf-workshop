@@ -53,6 +53,25 @@ A partridge in a pear tree.
 - Only the last line of each verse ends with `.`
 - The day names are: `first`, `second`, `third`, `fourth`, `fifth`, `sixth`, `seventh`, `eighth`, `ninth`, `tenth`, `eleventh`, `twelfth`
 
+## Verify Your Solution
+
+From the project root:
+
+```bash
+./check.sh 03-twelve-days "python solution.py"
+./check.sh 03-twelve-days "node solution.js"
+```
+
+Replace the command with however you run your solution.
+
+**Can't run from terminal?** Save your program's output to `challenges/03-twelve-days/output.txt` and run:
+
+```bash
+diff -u challenges/03-twelve-days/expected.txt challenges/03-twelve-days/output.txt
+```
+
+No output = correct. Otherwise the diff shows where your output differs.
+
 ## Solutions
 
 Put your solution in a file named `solution.<ext>` in this directory.
