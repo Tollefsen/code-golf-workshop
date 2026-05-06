@@ -12,6 +12,8 @@ The sequence starts with `0, 1` and each subsequent number is the sum of the two
 
 A single integer `n` (n >= 1), read from standard input (or command-line argument — your choice).
 
+**Stuck on reading input?** See [hints-js-input.md](hints-js-input.md) for JavaScript examples.
+
 ## Output
 
 The first `n` Fibonacci numbers, one per line.
