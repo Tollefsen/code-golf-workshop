@@ -62,6 +62,10 @@ function sum(n) {
 
 ### Step 1 — Use the formula
 
+The sum 1 + 2 + ... + n is a well-known series called a triangular number:
+
+![Triangular number formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/da2be4366fef3ae13fdf9c172bd3bceb801b38f5)
+
 ```javascript
 function sum(n) {
   return n * (n + 1) / 2;
@@ -124,7 +128,7 @@ From 72 to 16. That's code golf.
             Your Score
 ```
 
-Lowest score wins. Ties broken by submission time.
+Lowest score wins.
 
 ---
 
